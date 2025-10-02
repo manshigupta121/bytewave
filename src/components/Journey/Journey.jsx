@@ -1,4 +1,9 @@
 import React from 'react'
+import c1 from "../../assets/Customer_img/c1.png";
+import c2 from "../../assets/Customer_img/c2.png";
+import c3 from "../../assets/Customer_img/c3.png";
+import c4 from "../../assets/Customer_img/c4.png";
+import c5 from "../../assets/Customer_img/c5.png";
 
 import { GoPeople } from "react-icons/go";
 import { TfiCup } from "react-icons/tfi";
@@ -57,11 +62,11 @@ const Journey = () => {
             </div>
 
             <div className='mb-20 flex flex-row justify-center gap-10'>
-                <img className='mx-auto mt-10' src="src/assets/Customer_img/c1.png" alt="journey timeline" />
-                <img className='mx-auto mt-10' src="src/assets/Customer_img/c2.png" alt="" />
-                <img className='mx-auto mt-10' src="src/assets/Customer_img/c3.png" alt="" />
-                <img className='mx-auto mt-10' src="src/assets/Customer_img/c4.png" alt="" />
-                <img className='mx-auto mt-10' src="src/assets/Customer_img/c5.png" alt="" />
+                <img className='mx-auto mt-10' src={c1} alt="journey timeline" />
+                <img className='mx-auto mt-10' src={c2} alt="" />
+                <img className='mx-auto mt-10' src={c3} alt="" />
+                <img className='mx-auto mt-10' src={c4} alt="" />
+                <img className='mx-auto mt-10' src={c5} alt="" />
             </div>
 
 

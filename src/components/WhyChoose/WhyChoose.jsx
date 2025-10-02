@@ -24,7 +24,7 @@ const WhyChoose = () => {
             <div className="flex flex-wrap items-center mt-20 text-left text-center">
                 <div className="w-full md:w-3/5 lg:w-1/2 px-4">
                     <img
-                        src="src/assets/Whychoose_img/w1.png"
+                        src={w1}
                         alt="gem"
                         className="inline-block rounded-4xl shadow-lg w-[400px] "
                     />
@@ -45,7 +45,7 @@ const WhyChoose = () => {
                 {/* Note: The order for MD/LG screens is controlled by 'md:order-first' on the text block */}
                 <div className="w-full md:w-3/5 lg:w-1/2 px-4">
                     <img
-                        src="src/assets/Whychoose_img/w2.png"
+                        src={w2}
                         alt="project members"
                         className="inline-block rounded-4xl shadow-lg w-[400px] "
                     />
@@ -65,7 +65,7 @@ const WhyChoose = () => {
             <div className="flex flex-wrap items-center mt-20 text-left text-center">
                 <div className="w-full md:w-3/5 lg:w-1/2 px-4">
                     <img
-                        src="src/assets/Whychoose_img/w3.png"
+                        src={w3}
                         alt="editor"
                         className="inline-block rounded-4xl shadow-lg w-[400px] "
                     />
@@ -85,7 +85,7 @@ const WhyChoose = () => {
             <div className="flex flex-wrap items-center mt-20 text-left text-center">
                 <div className="w-full md:w-3/5 lg:w-1/2 px-4">
                     <img
-                        src="src/assets/Whychoose_img/w4.png"
+                        src={w4}
                         alt="bulk editing"
                         className="inline-block rounded-4xl shadow-lg  w-[400px]"
                     />
@@ -105,7 +105,7 @@ const WhyChoose = () => {
             <div className="flex flex-wrap items-center mt-20 text-left text-center">
                 <div className="w-full md:w-3/5 lg:w-1/2 px-4">
                     <img
-                        src="src/assets/Whychoose_img/w5.png"
+                        src={w5}
                         alt="editor"
                         className="inline-block rounded-4xl shadow-lg w-[400px]"
                     />
@@ -125,7 +125,7 @@ const WhyChoose = () => {
             <div className="flex flex-wrap items-center mt-20 text-left text-center">
                 <div className="w-full md:w-3/5 lg:w-1/2 px-4">
                     <img
-                        src="src/assets/Whychoose_img/w6.png"
+                        src={w6}
                         alt="bulk editing"
                         className="inline-block rounded-4xl shadow-lg w-[400px]"
                     />

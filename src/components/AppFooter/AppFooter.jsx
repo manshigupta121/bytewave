@@ -47,7 +47,7 @@ const AppFooter = () => {
               {/* Placeholder for the Logo/Icon */}
               
               <span>
-                <img src="src/assets/LOGO/logo.png" alt="" />
+                <img src={logo} alt="" />
               </span>
             </div>
             

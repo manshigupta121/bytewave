@@ -1,5 +1,11 @@
 import React from 'react'
 import { RiLinkedinFill } from "react-icons/ri";
+import l1 from "../../assets/leaders_img/l1.png";
+import l2 from "../../assets/leaders_img/l2.png";
+import l3 from "../../assets/leaders_img/l3.png";
+import l4 from "../../assets/leaders_img/l4.png";
+import l5 from "../../assets/leaders_img/l5.png";
+import l6 from "../../assets/leaders_img/l6.png";
 
 const MeetLeaders = () => {
   return (
@@ -11,7 +17,7 @@ const MeetLeaders = () => {
 
     <div className='grid grid-cols-1 md:grid-cols-3 gap-8 px-4 md:px-40 '>
         <div className=' md:w-auto'>
-        <img className='mx-auto mt-10 rounded-2xl w-[350px] h-[350px]' src="src/assets/leaders_img/l1.png" alt="journey timeline" />
+        <img className='mx-auto mt-10 rounded-2xl w-[350px] h-[350px]' src={l1} alt="journey timeline" />
 
          <div className='flex justify-between items-center gap-4  mb-10 px-10'>
             <div>
@@ -28,7 +34,7 @@ const MeetLeaders = () => {
         </div>
 
         <div>
-        <img className='mx-auto mt-10 rounded-2xl w-[350px] h-[350px]' src="src/assets/leaders_img/l2.png" alt="journey timeline" />
+        <img className='mx-auto mt-10 rounded-2xl w-[350px] h-[350px]' src={l2} alt="journey timeline" />
 
          <div className='flex justify-between items-center gap-4  mb-10 px-10'>
             <div>
@@ -45,7 +51,7 @@ const MeetLeaders = () => {
         </div>
 
         <div>
-        <img className='mx-auto mt-10 rounded-2xl w-[350px] h-[350px]' src="src/assets/leaders_img/l3.png" alt="journey timeline" />
+        <img className='mx-auto mt-10 rounded-2xl w-[350px] h-[350px]' src={l3} alt="journey timeline" />
 
          <div className='flex justify-between items-center gap-4 mb-10 px-10 md:px-5'>
             <div>
@@ -62,7 +68,7 @@ const MeetLeaders = () => {
         </div>
 
         <div>
-        <img className='mx-auto mt-10 rounded-2xl w-[350px] h-[350px]' src="src/assets/leaders_img/l4.png" alt="journey timeline" />
+        <img className='mx-auto mt-10 rounded-2xl w-[350px] h-[350px]' src={l4} alt="journey timeline" />
 
          <div className='flex justify-between items-center gap-4  mb-10 px-10'>
             <div>
@@ -79,7 +85,7 @@ const MeetLeaders = () => {
         </div>
 
         <div>
-        <img className='mx-auto mt-10 rounded-2xl w-[350px] h-[350px]' src="src/assets/leaders_img/l5.png" alt="journey timeline" />
+        <img className='mx-auto mt-10 rounded-2xl w-[350px] h-[350px]' src={l5} alt="journey timeline" />
 
          <div className='flex justify-between items-center gap-4  mb-10 px-10'>
             <div>
@@ -96,7 +102,7 @@ const MeetLeaders = () => {
         </div>
 
         <div>
-        <img className='mx-auto mt-10 rounded-2xl w-[350px] h-[350px]' src="src/assets/leaders_img/l6.png" alt="journey timeline" />
+        <img className='mx-auto mt-10 rounded-2xl w-[350px] h-[350px]' src={l6} alt="journey timeline" />
 
          <div className='flex justify-between items-center gap-4  mb-10 px-10'>
             <div>

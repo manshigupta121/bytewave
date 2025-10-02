@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { HiOutlineShoppingBag } from "react-icons/hi2";
 import { GoSearch } from "react-icons/go";
 import { FiPhoneCall } from "react-icons/fi";
+import logo from "../../assets/LOGO/logo.png";
 // Note: In a real project, you would import icons here, e.g.,
 // import { Menu, X } from 'lucide-react'; 
 
@@ -29,7 +30,7 @@ const Navbar = () => {
           {/* Logo/Brand Section */}
           <div className="flex-shrink-0">
             <a href="/" className="">
-              <img src="src/assets/LOGO/logo.png" alt="" />
+              <img src={logo} alt="" />
             </a>
           </div>
 

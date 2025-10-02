@@ -11,10 +11,11 @@ import l5 from "../../assets/All_logos/l5.png";
 //    is configured to handle module imports for images. For broader compatibility,
 //    ensure these paths are correct or use public URLs.
 const SPECIALISTS = [
-  { logo: <img src="src/assets/All_logos/l2.png" alt="Specialist Logo 2" className="w-full h-full object-contain" /> },
-  { logo: <img src="src/assets/All_logos/l3.png" alt="Specialist Logo 3" className="w-full h-full object-contain" /> },
-  { logo: <img src="src/assets/All_logos/l4.png" alt="Specialist Logo 4" className="w-full h-full object-contain" /> },
-  { logo: <img src="src/assets/All_logos/l5.png" alt="Specialist Logo 5" className="w-full h-full object-contain" /> }
+  { logo: <img src={l1} alt="Specialist Logo 1" className="w-full h-full object-contain" /> },
+  { logo: <img src={l2} alt="Specialist Logo 2" className="w-full h-full object-contain" /> },
+  { logo: <img src={l3} alt="Specialist Logo 3" className="w-full h-full object-contain" /> },
+  { logo: <img src={l4} alt="Specialist Logo 4" className="w-full h-full object-contain" /> },
+  { logo: <img src={l5} alt="Specialist Logo 5" className="w-full h-full object-contain" /> }
 ];
 // --- END: CUSTOMIZE YOUR LOGOS HERE ---
 
